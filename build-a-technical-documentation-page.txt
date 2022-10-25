@@ -1,0 +1,232 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lan="en">
+  <head>
+    <meta charset-="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Python</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#Starting_Python">Starting Python</a></li>
+        <li><a class="nav-link" href="#Your_First_Script">Your First Script</a></li>
+        <li><a class="nav-link" href="#Variables">Variables</a></li>
+        <li><a class="nav-link" href="#Control_Flow">Control Flow</a></li>
+        <li><a class="nav-link" href="#References">References</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>  
+          <p>Python can be easy to pick up whether you are a first time programmer or you have had experience with other languages</p>
+          <p>What can Python do?</p>
+          <ul>
+          <li>Pyhton can be used on aserver to create web applications.</li>
+          <li>Python can be used alongside softwarwe to create workflows.</li>
+          <li>Pytohn can connect to databese sustems.  It can also read and modify files.</li>
+          <li>Python can handle big data and perform complex mathematics.</li>
+          <li>Python can be used for rapid prototyping, or for production-ready software development.</li>
+        </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Starting_Python">
+        <header>Starting Python</header>
+        <article>
+        <h3>Python Install</h3>  
+        <p>Many PCs and Macs will have Python already installed on the system.</p>
+        <p>To check if you have python installed on your Windows device, either search for Python in your search bar or run the following on the Command Line (cmd.exe)</p>
+        <code> C:\Users\Your Name>python --version</code>
+        <p>If you fond that you do not have python installed on your machine, then you can download it fir free from the following website:<a href="https://www.python.org/">https://www.python.org</a></p>
+        </article>
+        </section>
+      <section class="main-section" id="Your_First_Script">
+        <header>Your First Script</header>
+        <article>
+        <p>Let us write our first Python file, called helloworld.py, which can be done on any text editor.</p>
+        <code>print("hello, World!)</code>
+        <p>Simple as that. Now save your file and head let's over to our command line. Navigate to the directory where you saved the file and run the following command</p>
+        <code>C:\\Users\Your name>python helloworld.py</code>
+        <p>You should now be able to see the following output:</p>
+        <code>Hello, World!</code>
+        </article>
+      </section>
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <article>
+        <p>Variables are containers, storing some sort of data type and value</p>
+        <p>Python has no command for creating a variable, it is created the moment you asign a value to it.</p>
+        <h3>Example</h3>
+        <code>x = 5</code></br>
+        <code> y = "John"</code></br>
+        <code>print(x)</code></br>
+        <code>print(y)</code>
+        </article>
+      </section>
+      <section class="main-section" id="Control_Flow">
+        <header>Control Flow</header>
+        <article>
+        <p>A program's <strong>control flow</strong> is theorder in which the program's code executes.</p>
+        <p>We will be lokking at the <strong>if, elif, and else</strong> statement in this section.</p>
+        <p>Sometimes you need to execute some blocks of code only if as condition holds.  Let's look at the syntax for an if statement:</p>
+        <code>if expression:</code></br>
+        <code>statement(s)</code></br>
+        <code>elif expression:</code></br>
+        <code>statement(s)</code></br>
+        <code>else:</code></br>
+        <code>statement(s)</code>
+        </article>
+      </section>
+      <section class="main-section" id="References">
+          <header>References</header>
+          <article>
+          <p>Documentation for this page was taken from the following sites.  Please feel free to visit them for more reading:</p>
+          <ul>
+            <li><a href="https:\\www.python.org\">Python</a></li>
+            <li><a href="https://www.w3schools.com/python/">w3schools</a></li>
+            <li><a href="https://www.oreilly.com/library/view/python-in-a/0596001886/ch04s09.html">O'Reilly</a></li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</htmkl>
+
+** end of undefined **
+
+** start of undefined **
+
+html, body{
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#navbar{
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0,22,22,0.4);
+}
+
+header{
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+
+#main-doc{
+  text-align: left;
+  margin: 0px;
+}
+
+#navbar ul{
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li{
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a{
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-doc{
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+section article{
+  color: #4d4e53;
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+section li{
+  margin: 15px 0px 0px 20px;
+}
+
+code{
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 815px){
+  /* for mobile phones: */
+  #navbar ul{
+    border: 1px solid;
+    height: 207px;
+  }
+
+  #navbar{
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+
+  #main-doc{
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  #main-doc{
+    margin-left: -10px;
+  }
+
+  code{
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+  }
+}
+
+** end of undefined **
+

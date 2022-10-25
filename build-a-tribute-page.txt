@@ -1,0 +1,142 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">John Muir</h1>
+      <p>The farther of National Parks</p>
+      <figure id="img-div">
+        <img
+          id="image"
+          src="https://www.neh.gov/sites/default/files/styles/1000x1000_square/public/2018-07/2011_03-04_John_Muir_02.jpg?h=3b4cfb20&itok=RZBnFf4d"
+          alt="John Muir, circa 1902"
+        />
+        <figcaption id="img-caption">
+          John Muir, circa 1902. The founder of the Sierra Club worshiped the outdoor world.
+        </figcaption>
+      </figure>
+      <section id="tribute-info">
+        <h3 id="headline">Here is a time line of John Muir's life:</h3>
+        <ul>
+          <li><strong>April 21, 1838</strong> - Born in Dunbar, Scotland to Daniel Muir & Ann Gilrye Muir.</li>
+          <li><strong>Spring 1849</strong> – Muir leaves Scotland and arrives at Fountain Lake (now Ennis Lake) Wisconsin with brother, sister and father. Remainder of family arrives later that year.</li>
+          <li><strong>January 1861</strong> –  Muir enrolls at University of Wisconsin.</li>
+          <li><strong>March-September 1864</strong>  – Muir goes on a botany expedition through lower Canada.</li>
+          <li><strong>April 1867</strong> He decides to commit his life to nature study.</li>
+          <li><strong>April-June 1868</strong> Muir takes his first visit to Yosemite via Pacheco Pass, Snelling and Crane Flat.</li>
+          <li><strong>August 1871</strong>  – Muir begins an intensive glacier study as preparation for book proposed for Boston Academy of Sciences.</li>
+          <li><strong>July 1872 </strong> – Meets Asa Gray, considered the most important American botanist of the 19th century, in Yosemite Valley.</li>
+          <li><strong>October 1890</strong> – The Yosemite National Park bill passes Congress.</li>
+          <li><strong>March 1895</strong>  – Caminetti bill, which proposed to cut down the boundaries of Yosemite National Park, is defeated in Congress.</li>
+          <li><strong>May 1903</strong> – Muir embarks on a three-day trip to Yosemite with President Theodore Roosevelt.</li>
+          <li><strong>August-September 1908</strong> – Muir takes a three-week stay at Pelican Bay, Oregon as guest of Edward Henry Harriman, a colleague from his Alaska expeditions. Here, Muir dictates his autobiography.</li>
+          <li><strong>May 1913</strong>  – Muir receives an honorary degree from the University of California.</li>
+          <li><strong>December 24, 1914</strong> – John Muir dies in Los Angeles, California.</li>
+        </ul>
+        <h3>If you have time, you should read more about the force behind starting the national parks on his 
+          <a id="tribute-link"
+            href="https://en.wikipedia.org/wiki/John_Muir"
+            target="_blank"
+            >Wikipedia entry</a>.
+            </h3>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html{
+  font-size: 15px;
+}
+
+body{
+text-align:center;
+  color:#333;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin:0;
+}
+
+h1{
+  font-size: 4rem;
+  margin-bottom:0;
+}
+@media (max-width: 460px) {
+  h1{
+    font-size: 3.5rem;
+    line-height:1.2;
+  }
+}
+h3{
+  font-size: 3.25rem;
+}
+
+a{
+  color: #477ca7;
+}
+
+a:visited{
+  color:#74638f;
+}
+
+#main{
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #7FFF00;
+}
+
+@media (max-width: 460px) {
+  #main{
+    margin:0;
+  }
+}
+
+img{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div{
+  background: olive;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption{
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption{
+    font-size: 1.4rem;
+  }
+}
+
+#headline{
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul{
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li{
+  margin: 16px 0;
+}
+
+** end of undefined **
+
