@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>survey-from</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">We would love your feedback</p>
+     <form id="survey-form">
+       <div>
+         <label id="name-label">Name</label>
+         <input id="name" 
+                type="text" 
+                placeholder="Please enter name"           name="name" 
+                required/>
+       </div>
+       <div>
+         <label id="email-label">Email</label>
+         <input id="email" 
+                type="email" 
+                required 
+                placeholder="Please enter email"          name="email"/>
+       </div>
+       <div>
+         <label id="number-label">Age</label>
+         <input id="number" 
+                type="number" 
+                name="age" 
+                placeholder="Age" 
+                min="10" max="100" />
+       </div>
+       <div>
+         <p id="select-option">How did you hear about us?</p>
+         <select id="dropdown" required>
+          <option value="1">Please select one</option>
+           <option value="website">Website</option>
+           <option value="friend">Friend</option>
+         </select>
+       </div>
+       <div>
+         <p>Would you recommend us?</p>
+         <label>
+         <input type="radio" 
+                name="radio"
+                class="radio"
+                value="Hell yeah"/> Hell Yeah</lable>
+         <label>
+           <input type="radio" 
+                name="radio" 
+                class="radio"
+                value="Not Likely"/>Not Likely</label>
+       </div>
+       <div>
+         <p>What would you change?</p>
+         <label>
+         <input type="checkbox" 
+         value="1"
+         id="checkbox"/> Better Pricing</label>
+         <label>
+         <input type="checkbox" 
+         value="2" 
+         id="checkbox"/> New Poducts </label>
+         <label>
+         <input type="checkbox" 
+         value="3" 
+         id="checkbox"/> Faster Turn around time</label>
+       </div>
+       <div>
+         <p>Any additional thoughts</p>
+         <textarea 
+         id="comments"
+         placeholder="Some extra thoughts..."/>
+         </textarea>
+         
+       </div>
+       <div>
+         <input type="submit" value="Submit" id="submit"/>
+       </div>
+     </form>
+     </div>
+
+  </body>
+</html>
